@@ -51,10 +51,7 @@ console.table(seasonal);
 //     return seasonal && " with imported beans";
 // }
 
-
-const coffeMake =  [seasonal && " with imported beans"];
-
-
-console.log(coffeMake);
-
-// console.log(seasonalCoffee);
+const coffeeName = (item) => {
+    console.log(item.name + " with imported beans");
+} 
+seasonal.forEach(coffeeName);
